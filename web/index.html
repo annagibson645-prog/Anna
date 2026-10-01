@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hormozi Library</title>
+<style>body{font:15px system-ui;margin:0 auto;max-width:900px;padding:16px}input{width:100%;padding:10px;font-size:16px;box-sizing:border-box}
+table{width:100%;border-collapse:collapse;margin-top:12px}td,th{padding:8px;border-bottom:1px solid #8884;text-align:left}th{cursor:pointer}a{color:#2563eb}</style></head>
+<body><h1>Hormozi Library</h1><p id="s"></p><input id="q" placeholder="Search titles…">
+<table><thead><tr><th data-k="title">Title</th><th data-k="duration_min">Min</th><th data-k="views">Views</th></tr></thead><tbody id="b"></tbody></table>
+<script>
+let rows=[],key="views",dir=-1;
+fetch("../videos.json").then(r=>r.json()).then(d=>{rows=d.videos;document.getElementById("s").textContent=`${rows.length} videos (30+ min)`;draw()});
+function draw(){const q=document.getElementById("q").value.toLowerCase();
+const r=rows.filter(v=>v.title.toLowerCase().includes(q)).sort((a,b)=>(a[key]>b[key]?1:-1)*dir);
+document.getElementById("b").innerHTML=r.map(v=>`<tr><td><a href="${v.url}" target="_blank" rel="noopener">${v.title.replace(/</g,"&lt;")}</a></td><td>${v.duration_min}</td><td>${v.views.toLocaleString()}</td></tr>`).join("")}
+document.getElementById("q").oninput=draw;
+document.querySelectorAll("th").forEach(t=>t.onclick=()=>{const k=t.dataset.k;dir=k===key?-dir:-1;key=k;draw()});
+</script></body></html>
