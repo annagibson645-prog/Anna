@@ -2,7 +2,7 @@
  "stats": {
   "videos_tab": 523,
   "shorts_tab": 5131,
-  "kept_30min_plus": 139
+  "kept_20min_plus": 210
  },
  "videos": [
   {
@@ -62,10 +62,42 @@
    "upload_date": ""
   },
   {
+   "title": "If You Have Less Than $10,000 Saved. Please Watch This Video...",
+   "url": "https://www.youtube.com/watch?v=ymFWgFiKUvM",
+   "duration_min": 27,
+   "duration": "27:05",
+   "views": 2000000,
+   "upload_date": ""
+  },
+  {
+   "title": "If you\u2019re ambitious but inconsistent, please watch this",
+   "url": "https://www.youtube.com/watch?v=UDBkiBnMrHs",
+   "duration_min": 26,
+   "duration": "26:14",
+   "views": 1900000,
+   "upload_date": ""
+  },
+  {
    "title": "If you want 2026 to be the best year of your life. Please watch this video\u2026",
    "url": "https://www.youtube.com/watch?v=6KqndZuN_Yk",
    "duration_min": 92,
    "duration": "1:32:26",
+   "views": 1900000,
+   "upload_date": ""
+  },
+  {
+   "title": "\"I'm Broke, What Business Do I Start?\"",
+   "url": "https://www.youtube.com/watch?v=nIk3DedjxJM",
+   "duration_min": 25,
+   "duration": "24:43",
+   "views": 1900000,
+   "upload_date": ""
+  },
+  {
+   "title": "14 Life Lessons I Wish I Knew Earlier",
+   "url": "https://www.youtube.com/watch?v=cq8GyLrEuAk",
+   "duration_min": 21,
+   "duration": "21:06",
    "views": 1900000,
    "upload_date": ""
   },
@@ -94,6 +126,14 @@
    "upload_date": ""
   },
   {
+   "title": "REPROGRAM your mind to be rich in 22 minutes....",
+   "url": "https://www.youtube.com/watch?v=9ySuYdJ0H4s",
+   "duration_min": 22,
+   "duration": "22:00",
+   "views": 1800000,
+   "upload_date": ""
+  },
+  {
    "title": "Brutally Honest Truths That Give You an Unfair Advantage in Life",
    "url": "https://www.youtube.com/watch?v=MzAIP_WJ-jE",
    "duration_min": 36,
@@ -106,6 +146,14 @@
    "url": "https://www.youtube.com/watch?v=GIRkQQHzsxI",
    "duration_min": 37,
    "duration": "36:57",
+   "views": 1700000,
+   "upload_date": ""
+  },
+  {
+   "title": "If I Were Single and Starting Over, This Is What I Would Do",
+   "url": "https://www.youtube.com/watch?v=jiCGLDhUCHY",
+   "duration_min": 27,
+   "duration": "27:09",
    "views": 1700000,
    "upload_date": ""
   },
@@ -142,10 +190,34 @@
    "upload_date": ""
   },
   {
+   "title": "Brutally Honest Advice to My Younger Poorer Self",
+   "url": "https://www.youtube.com/watch?v=ln24y0FPJHo",
+   "duration_min": 25,
+   "duration": "24:59",
+   "views": 1500000,
+   "upload_date": ""
+  },
+  {
+   "title": "Can I Save This Failing Theme Park in 90 Days?",
+   "url": "https://www.youtube.com/watch?v=xRxVpjeHmeA",
+   "duration_min": 29,
+   "duration": "28:53",
+   "views": 1400000,
+   "upload_date": ""
+  },
+  {
    "title": "If I Wanted To Become a Millionaire in 2026, This Is What I'd Do [FULL BLUEPRINT]",
    "url": "https://www.youtube.com/watch?v=AN2KpRBsmRY",
    "duration_min": 78,
    "duration": "1:18:24",
+   "views": 1400000,
+   "upload_date": ""
+  },
+  {
+   "title": "After Closing 4000+ Sales, I Discovered a New Method to Close Deals Faster",
+   "url": "https://www.youtube.com/watch?v=RVbvhPGFi6E",
+   "duration_min": 25,
+   "duration": "25:17",
    "views": 1400000,
    "upload_date": ""
   },
@@ -190,6 +262,30 @@
    "upload_date": ""
   },
   {
+   "title": "How I Would Build a $10M Service Business (If I Had to Start Over)",
+   "url": "https://www.youtube.com/watch?v=o64cI6tebnU",
+   "duration_min": 27,
+   "duration": "26:46",
+   "views": 1200000,
+   "upload_date": ""
+  },
+  {
+   "title": "If You're in Your 20s or 30s, Here's How to Win (at Anything)",
+   "url": "https://www.youtube.com/watch?v=0lMn_-EXyhQ",
+   "duration_min": 24,
+   "duration": "23:39",
+   "views": 1200000,
+   "upload_date": ""
+  },
+  {
+   "title": "Seriously, watch this before you go to college",
+   "url": "https://www.youtube.com/watch?v=nxL4ZfVqKLI",
+   "duration_min": 29,
+   "duration": "29:11",
+   "views": 1200000,
+   "upload_date": ""
+  },
+  {
    "title": "You'll Find This Video When You Need it Most",
    "url": "https://www.youtube.com/watch?v=IFElGv5ZmRM",
    "duration_min": 43,
@@ -210,6 +306,14 @@
    "url": "https://www.youtube.com/watch?v=vhOV_Od0A3M",
    "duration_min": 451,
    "duration": "7:30:44",
+   "views": 1000000,
+   "upload_date": ""
+  },
+  {
+   "title": "It's Actually Pretty Easy to Get Ahead of 99% of People",
+   "url": "https://www.youtube.com/watch?v=TFxT3G5jwtU",
+   "duration_min": 24,
+   "duration": "23:56",
    "views": 1000000,
    "upload_date": ""
   },
@@ -238,6 +342,22 @@
    "upload_date": ""
   },
   {
+   "title": "Brutally Honest Advice to my Poorer Younger Self",
+   "url": "https://www.youtube.com/watch?v=DiQ3N8F1Hl8",
+   "duration_min": 28,
+   "duration": "27:39",
+   "views": 969000,
+   "upload_date": ""
+  },
+  {
+   "title": "How I Would Build a Business in 2026 (If I Had to Start Over)",
+   "url": "https://www.youtube.com/watch?v=i7bLRKwKSms",
+   "duration_min": 27,
+   "duration": "27:02",
+   "views": 956000,
+   "upload_date": ""
+  },
+  {
    "title": "You Get Rich By Not Focusing On Getting Rich",
    "url": "https://www.youtube.com/watch?v=Uki3IUkUu7Q",
    "duration_min": 31,
@@ -246,11 +366,51 @@
    "upload_date": ""
   },
   {
+   "title": "Brutally Honest Advice to Build Your Confidence",
+   "url": "https://www.youtube.com/watch?v=pt50QF6al8g",
+   "duration_min": 25,
+   "duration": "25:16",
+   "views": 919000,
+   "upload_date": ""
+  },
+  {
    "title": "Your biggest advantage is no one knows who you are",
    "url": "https://www.youtube.com/watch?v=prj1bnTAM8A",
    "duration_min": 37,
    "duration": "37:22",
    "views": 916000,
+   "upload_date": ""
+  },
+  {
+   "title": "My Actual Social Media Strategy For 2026",
+   "url": "https://www.youtube.com/watch?v=dMZ-n2KSlxE",
+   "duration_min": 25,
+   "duration": "25:08",
+   "views": 894000,
+   "upload_date": ""
+  },
+  {
+   "title": "If You Want To Create Wealth In 2026, Watch This (4 Paths)",
+   "url": "https://www.youtube.com/watch?v=sL16tsGafcQ",
+   "duration_min": 25,
+   "duration": "25:13",
+   "views": 855000,
+   "upload_date": ""
+  },
+  {
+   "title": "You're Not Behind: My System for Outlearning Everyone",
+   "url": "https://www.youtube.com/watch?v=3Ju1I37jWUM",
+   "duration_min": 26,
+   "duration": "25:52",
+   "views": 848000,
+   "upload_date": ""
+  },
+  {
+   "title": "How to Win With AI in 2026",
+   "url": "https://www.youtube.com/watch?v=9q5ojtkqsBs",
+   "duration_min": 24,
+   "duration": "24:19",
+   "views": 842000,
    "upload_date": ""
   },
   {
@@ -310,11 +470,27 @@
    "upload_date": ""
   },
   {
+   "title": "15 Brutal Truths I Know at 36 That I Wish I Knew at 20",
+   "url": "https://www.youtube.com/watch?v=XGm2ERU9qtA",
+   "duration_min": 28,
+   "duration": "28:05",
+   "views": 753000,
+   "upload_date": ""
+  },
+  {
    "title": "Learn Email Marketing in 39 Minutes!",
    "url": "https://www.youtube.com/watch?v=pLhQOYMGa88",
    "duration_min": 39,
    "duration": "39:18",
    "views": 745000,
+   "upload_date": ""
+  },
+  {
+   "title": "Build a Mind So Strong It Scares People",
+   "url": "https://www.youtube.com/watch?v=SE9_1PYsaP0",
+   "duration_min": 23,
+   "duration": "22:45",
+   "views": 739000,
    "upload_date": ""
   },
   {
@@ -366,6 +542,14 @@
    "upload_date": ""
   },
   {
+   "title": "How to Change Your Life",
+   "url": "https://www.youtube.com/watch?v=MZPVPCIeUpg",
+   "duration_min": 20,
+   "duration": "20:27",
+   "views": 667000,
+   "upload_date": ""
+  },
+  {
    "title": "How to make SO much money it makes you sick",
    "url": "https://www.youtube.com/watch?v=I64gYLBrics",
    "duration_min": 52,
@@ -406,11 +590,27 @@
    "upload_date": ""
   },
   {
+   "title": "How the top 1% make their money",
+   "url": "https://www.youtube.com/watch?v=fD-sxKiB30M",
+   "duration_min": 26,
+   "duration": "25:37",
+   "views": 602000,
+   "upload_date": ""
+  },
+  {
    "title": "Sales Was Hard Until I Understood These 9 Concepts",
    "url": "https://www.youtube.com/watch?v=cy2k1GdA-9o",
    "duration_min": 51,
    "duration": "51:21",
    "views": 597000,
+   "upload_date": ""
+  },
+  {
+   "title": "How to Articulate Your Thoughts More Clearly Than 99% of People",
+   "url": "https://www.youtube.com/watch?v=s6tkRztZwYc",
+   "duration_min": 21,
+   "duration": "20:56",
+   "views": 578000,
    "upload_date": ""
   },
   {
@@ -427,6 +627,14 @@
    "duration_min": 70,
    "duration": "1:09:44",
    "views": 576000,
+   "upload_date": ""
+  },
+  {
+   "title": "Stop Being Broke. Get Busy.",
+   "url": "https://www.youtube.com/watch?v=H_ZLs1-jOKQ",
+   "duration_min": 20,
+   "duration": "20:24",
+   "views": 560000,
    "upload_date": ""
   },
   {
@@ -502,6 +710,38 @@
    "upload_date": ""
   },
   {
+   "title": "How the Top 1% Actually Think About Money",
+   "url": "https://www.youtube.com/watch?v=6BQ3whjWG3M",
+   "duration_min": 28,
+   "duration": "28:03",
+   "views": 495000,
+   "upload_date": ""
+  },
+  {
+   "title": "I Doubled A Business in 60 Days to Show It's Not Luck (Part 1)",
+   "url": "https://www.youtube.com/watch?v=c_6BrF7jOGk",
+   "duration_min": 25,
+   "duration": "24:36",
+   "views": 480000,
+   "upload_date": ""
+  },
+  {
+   "title": "This Idea Will Make Your Business Unstoppable",
+   "url": "https://www.youtube.com/watch?v=m5ordaa7NN4",
+   "duration_min": 29,
+   "duration": "29:01",
+   "views": 475000,
+   "upload_date": ""
+  },
+  {
+   "title": "How to Speak So Well People Give You Money",
+   "url": "https://www.youtube.com/watch?v=sGakuNs9mT4",
+   "duration_min": 21,
+   "duration": "21:29",
+   "views": 471000,
+   "upload_date": ""
+  },
+  {
    "title": "No BS Business Advice to Get Rich in 2026",
    "url": "https://www.youtube.com/watch?v=cnbHgYYHzyE",
    "duration_min": 156,
@@ -534,6 +774,14 @@
    "upload_date": ""
   },
   {
+   "title": "I will never lose sleep again after learning this..",
+   "url": "https://www.youtube.com/watch?v=55H71isO_Bo",
+   "duration_min": 28,
+   "duration": "28:09",
+   "views": 447000,
+   "upload_date": ""
+  },
+  {
    "title": "Building a $5,000,000 Business for a Stranger in 42 Mins",
    "url": "https://www.youtube.com/watch?v=sBJppqCeFGI",
    "duration_min": 42,
@@ -550,6 +798,22 @@
    "upload_date": ""
   },
   {
+   "title": "Million Dollar Equations",
+   "url": "https://www.youtube.com/watch?v=QGcjweehrvU",
+   "duration_min": 24,
+   "duration": "23:30",
+   "views": 423000,
+   "upload_date": ""
+  },
+  {
+   "title": "How to get what you want every time",
+   "url": "https://www.youtube.com/watch?v=Jc2UW3nlNBA",
+   "duration_min": 21,
+   "duration": "21:17",
+   "views": 404000,
+   "upload_date": ""
+  },
+  {
    "title": "Why you aren't making as much money as you want",
    "url": "https://www.youtube.com/watch?v=ZuJryiwxjDw",
    "duration_min": 38,
@@ -558,11 +822,51 @@
    "upload_date": ""
   },
   {
+   "title": "I Tried This Simple Business Strategy for 60 Days. This is what happened",
+   "url": "https://www.youtube.com/watch?v=yPDQCfrwh8E",
+   "duration_min": 25,
+   "duration": "24:36",
+   "views": 396000,
+   "upload_date": ""
+  },
+  {
+   "title": "The 3 Fastest Ways I Know To Grow Any Business",
+   "url": "https://www.youtube.com/watch?v=ovL6Z5z0jxQ",
+   "duration_min": 27,
+   "duration": "27:07",
+   "views": 394000,
+   "upload_date": ""
+  },
+  {
+   "title": "Sick of Shiny Object Syndrome? Watch This",
+   "url": "https://www.youtube.com/watch?v=07jC6ooRIHw",
+   "duration_min": 22,
+   "duration": "21:50",
+   "views": 393000,
+   "upload_date": ""
+  },
+  {
+   "title": "This ONE Equation Will Make You RICH",
+   "url": "https://www.youtube.com/watch?v=5MHQr-Z17Hc",
+   "duration_min": 23,
+   "duration": "22:55",
+   "views": 393000,
+   "upload_date": ""
+  },
+  {
    "title": "Watch This To Get Ahead In 2026",
    "url": "https://www.youtube.com/watch?v=spXH1kJ6q-Q",
    "duration_min": 56,
    "duration": "55:50",
    "views": 385000,
+   "upload_date": ""
+  },
+  {
+   "title": "You can make way more money than you think",
+   "url": "https://www.youtube.com/watch?v=hnmBXTyMFKI",
+   "duration_min": 27,
+   "duration": "26:54",
+   "views": 384000,
    "upload_date": ""
   },
   {
@@ -579,6 +883,38 @@
    "duration_min": 44,
    "duration": "43:45",
    "views": 373000,
+   "upload_date": ""
+  },
+  {
+   "title": "I sold everything",
+   "url": "https://www.youtube.com/watch?v=RBR4BwOVNvs",
+   "duration_min": 22,
+   "duration": "22:28",
+   "views": 369000,
+   "upload_date": ""
+  },
+  {
+   "title": "This Email Campaign Generates Sales [Full Breakdown]",
+   "url": "https://www.youtube.com/watch?v=OpeN4O5myIg",
+   "duration_min": 22,
+   "duration": "22:03",
+   "views": 357000,
+   "upload_date": ""
+  },
+  {
+   "title": "4 Ways To Get Ahead of 99% of People",
+   "url": "https://www.youtube.com/watch?v=s7QA1TJKlbQ",
+   "duration_min": 30,
+   "duration": "29:34",
+   "views": 344000,
+   "upload_date": ""
+  },
+  {
+   "title": "I Discovered The Easiest Million Dollar Business to Start in 2024",
+   "url": "https://www.youtube.com/watch?v=Rm4zRdLAyjw",
+   "duration_min": 23,
+   "duration": "22:57",
+   "views": 340000,
    "upload_date": ""
   },
   {
@@ -630,6 +966,14 @@
    "upload_date": ""
   },
   {
+   "title": "Copy This Strategy, It'll Blow Up Your Business",
+   "url": "https://www.youtube.com/watch?v=DaRXece2ItE",
+   "duration_min": 21,
+   "duration": "20:32",
+   "views": 305000,
+   "upload_date": ""
+  },
+  {
    "title": "Watch These 51 Minutes if You Want to Grow Your Business in 2026 (Dave Ramsey Interview)",
    "url": "https://www.youtube.com/watch?v=-HJg4TYBgtI",
    "duration_min": 51,
@@ -662,6 +1006,30 @@
    "upload_date": ""
   },
   {
+   "title": "If I Wanted to Create a Business That Runs Itself, Here's What I'd Do",
+   "url": "https://www.youtube.com/watch?v=mr4Pw66_490",
+   "duration_min": 28,
+   "duration": "27:48",
+   "views": 289000,
+   "upload_date": ""
+  },
+  {
+   "title": "What Makes The Perfect Business (5 Things)",
+   "url": "https://www.youtube.com/watch?v=3fsJFUvA6Ts",
+   "duration_min": 21,
+   "duration": "20:40",
+   "views": 284000,
+   "upload_date": ""
+  },
+  {
+   "title": "How to Get Anyone to Do Anything You Want",
+   "url": "https://www.youtube.com/watch?v=aUnorufFIq8",
+   "duration_min": 28,
+   "duration": "27:43",
+   "views": 283000,
+   "upload_date": ""
+  },
+  {
    "title": "If you're not unbelievably rich yet, this is why",
    "url": "https://www.youtube.com/watch?v=h6y0nYVZgwE",
    "duration_min": 64,
@@ -670,11 +1038,27 @@
    "upload_date": ""
   },
   {
+   "title": "Building a brand, but it\u2019s on easy mode instead",
+   "url": "https://www.youtube.com/watch?v=UGEc9-7X3OQ",
+   "duration_min": 23,
+   "duration": "23:11",
+   "views": 273000,
+   "upload_date": ""
+  },
+  {
    "title": "Building a $3,000,000 Business for a Stranger in 31 Minutes | Scale or Fail",
    "url": "https://www.youtube.com/watch?v=j2TZMFkj71Q",
    "duration_min": 30,
    "duration": "30:19",
    "views": 270000,
+   "upload_date": ""
+  },
+  {
+   "title": "Business is hard until you do this",
+   "url": "https://www.youtube.com/watch?v=CoPs-Bk8M9Y",
+   "duration_min": 26,
+   "duration": "26:26",
+   "views": 267000,
    "upload_date": ""
   },
   {
@@ -726,6 +1110,22 @@
    "upload_date": ""
   },
   {
+   "title": "It took me 36 years to realize what I\u2019ll tell you in 26 minutes\u2026",
+   "url": "https://www.youtube.com/watch?v=_KlZoPxbStk",
+   "duration_min": 27,
+   "duration": "26:56",
+   "views": 241000,
+   "upload_date": ""
+  },
+  {
+   "title": "Business Owners: You NEED to Know This Number",
+   "url": "https://www.youtube.com/watch?v=jzKpAtzKQ54",
+   "duration_min": 28,
+   "duration": "28:27",
+   "views": 241000,
+   "upload_date": ""
+  },
+  {
    "title": "Making Money is a Game (Here's the Cheat Code)",
    "url": "https://www.youtube.com/watch?v=nSQdjim8CsE",
    "duration_min": 31,
@@ -734,11 +1134,27 @@
    "upload_date": ""
   },
   {
+   "title": "The REAL Reason You\u2019re Not Making as Much Money As You Want",
+   "url": "https://www.youtube.com/watch?v=zNiXk_3C_Io",
+   "duration_min": 21,
+   "duration": "21:14",
+   "views": 233000,
+   "upload_date": ""
+  },
+  {
    "title": "Building a $2,500,000 Business for a Stranger in 36 Minutes",
    "url": "https://www.youtube.com/watch?v=OQf2Ba-Lp_4",
    "duration_min": 36,
    "duration": "36:19",
    "views": 232000,
+   "upload_date": ""
+  },
+  {
+   "title": "The 8 Laws of Business I Learned From Charlie Munger",
+   "url": "https://www.youtube.com/watch?v=C_SgvSvJZdk",
+   "duration_min": 20,
+   "duration": "20:08",
+   "views": 230000,
    "upload_date": ""
   },
   {
@@ -755,6 +1171,22 @@
    "duration_min": 38,
    "duration": "37:57",
    "views": 226000,
+   "upload_date": ""
+  },
+  {
+   "title": "Why \"Following Your Dreams\" is Keeping You Poor",
+   "url": "https://www.youtube.com/watch?v=6uhd-FiCggg",
+   "duration_min": 25,
+   "duration": "24:48",
+   "views": 224000,
+   "upload_date": ""
+  },
+  {
+   "title": "7 Ways To Get Customers for Free",
+   "url": "https://www.youtube.com/watch?v=qpQvdBFW_yI",
+   "duration_min": 21,
+   "duration": "21:05",
+   "views": 222000,
    "upload_date": ""
   },
   {
@@ -798,6 +1230,14 @@
    "upload_date": ""
   },
   {
+   "title": "My $100M Leads Affiliate Marketing Guide",
+   "url": "https://www.youtube.com/watch?v=60_7PU9JDIw",
+   "duration_min": 26,
+   "duration": "26:16",
+   "views": 210000,
+   "upload_date": ""
+  },
+  {
    "title": "If You Hate Selling, Please Watch This | Scale or Fail",
    "url": "https://www.youtube.com/watch?v=8VqSFBMMS4M",
    "duration_min": 36,
@@ -819,6 +1259,22 @@
    "duration_min": 61,
    "duration": "1:00:49",
    "views": 206000,
+   "upload_date": ""
+  },
+  {
+   "title": "I Blew Up A Secret Business To Prove It\u2019s Not Luck",
+   "url": "https://www.youtube.com/watch?v=SmiOK8Yun4s",
+   "duration_min": 29,
+   "duration": "29:22",
+   "views": 203000,
+   "upload_date": ""
+  },
+  {
+   "title": "7 Ways to Get People to Buy More Times",
+   "url": "https://www.youtube.com/watch?v=sPkMHh8zTMI",
+   "duration_min": 30,
+   "duration": "29:57",
+   "views": 203000,
    "upload_date": ""
   },
   {
@@ -878,6 +1334,14 @@
    "upload_date": ""
   },
   {
+   "title": "Building a $12,000,000 Business for a Stranger in 25 Minutes",
+   "url": "https://www.youtube.com/watch?v=MH-IMJxbUY4",
+   "duration_min": 25,
+   "duration": "24:47",
+   "views": 188000,
+   "upload_date": ""
+  },
+  {
    "title": "Answering Your Top Business Questions for 1 Hour",
    "url": "https://www.youtube.com/watch?v=QwEb78e5a8Y",
    "duration_min": 33,
@@ -899,6 +1363,22 @@
    "duration_min": 34,
    "duration": "34:19",
    "views": 182000,
+   "upload_date": ""
+  },
+  {
+   "title": "Why Doing More Is Actually Making You Less Money",
+   "url": "https://www.youtube.com/watch?v=hfwZwPGsbIo",
+   "duration_min": 21,
+   "duration": "21:27",
+   "views": 176000,
+   "upload_date": ""
+  },
+  {
+   "title": "Business Owners: You're (Probably) Not Good Enough",
+   "url": "https://www.youtube.com/watch?v=Luvfw14pVx4",
+   "duration_min": 23,
+   "duration": "22:36",
+   "views": 175000,
    "upload_date": ""
   },
   {
@@ -934,6 +1414,14 @@
    "upload_date": ""
   },
   {
+   "title": "The Ultra Rich Playbook [Legal & Tax-Free]",
+   "url": "https://www.youtube.com/watch?v=6x3re5-Ms1E",
+   "duration_min": 27,
+   "duration": "27:24",
+   "views": 161000,
+   "upload_date": ""
+  },
+  {
    "title": "Your Failures Can Make You Rich (if you write them down)",
    "url": "https://www.youtube.com/watch?v=SasEJE4FI-I",
    "duration_min": 31,
@@ -947,6 +1435,14 @@
    "duration_min": 37,
    "duration": "37:12",
    "views": 158000,
+   "upload_date": ""
+  },
+  {
+   "title": "Building a $1,000,000 Business for a Stranger in 26 Minutes",
+   "url": "https://www.youtube.com/watch?v=HGZOxBfnF-E",
+   "duration_min": 26,
+   "duration": "26:16",
+   "views": 155000,
    "upload_date": ""
   },
   {
@@ -974,6 +1470,14 @@
    "upload_date": ""
   },
   {
+   "title": "The Biggest MYTH You Probably Still Believe",
+   "url": "https://www.youtube.com/watch?v=kQFSiEDvXws",
+   "duration_min": 25,
+   "duration": "25:09",
+   "views": 149000,
+   "upload_date": ""
+  },
+  {
    "title": "Money Lessons I Learned In Marriage.",
    "url": "https://www.youtube.com/watch?v=oK2_u-uS_Bo",
    "duration_min": 42,
@@ -995,6 +1499,14 @@
    "duration_min": 65,
    "duration": "1:04:33",
    "views": 142000,
+   "upload_date": ""
+  },
+  {
+   "title": "I Posted ONLY Business Content for 30 Days [STRATEGY REVEALED]",
+   "url": "https://www.youtube.com/watch?v=JOfsujnXxCg",
+   "duration_min": 25,
+   "duration": "25:24",
+   "views": 129000,
    "upload_date": ""
   },
   {
@@ -1046,6 +1558,14 @@
    "upload_date": ""
   },
   {
+   "title": "You Made Your Customers ANGRY... Now What?",
+   "url": "https://www.youtube.com/watch?v=p39nLmVtOjc",
+   "duration_min": 25,
+   "duration": "25:02",
+   "views": 112000,
+   "upload_date": ""
+  },
+  {
    "title": "9 Money Beliefs of the Ultra Wealthy",
    "url": "https://www.youtube.com/watch?v=d0dBZbd13jM",
    "duration_min": 32,
@@ -1067,6 +1587,14 @@
    "duration_min": 34,
    "duration": "33:38",
    "views": 96000,
+   "upload_date": ""
+  },
+  {
+   "title": "Helping 4 Educational Business Owners Build a $1M Business in 25 Minutes",
+   "url": "https://www.youtube.com/watch?v=BYpTRiRqS1Y",
+   "duration_min": 25,
+   "duration": "25:17",
+   "views": 95000,
    "upload_date": ""
   },
   {
@@ -1094,6 +1622,22 @@
    "upload_date": ""
   },
   {
+   "title": "Build Your Business Like Harvard",
+   "url": "https://www.youtube.com/watch?v=FiL0r5_dUvM",
+   "duration_min": 26,
+   "duration": "25:32",
+   "views": 79000,
+   "upload_date": ""
+  },
+  {
+   "title": "Biden's tax plan.....",
+   "url": "https://www.youtube.com/watch?v=FNJpJG-sSXM",
+   "duration_min": 20,
+   "duration": "20:28",
+   "views": 54000,
+   "upload_date": ""
+  },
+  {
    "title": "Explaining How Anyone Can Make $100M\u00ae Offers",
    "url": "https://www.youtube.com/watch?v=neTSqOAMgao",
    "duration_min": 50,
@@ -1110,10 +1654,34 @@
    "upload_date": ""
   },
   {
+   "title": "My Address To The Gym Industry At The Onset of COVID",
+   "url": "https://www.youtube.com/watch?v=_tF3ODk56hg",
+   "duration_min": 27,
+   "duration": "27:24",
+   "views": 14000,
+   "upload_date": ""
+  },
+  {
+   "title": "We Broke The Guinness World Record In 24 Hours",
+   "url": "https://www.youtube.com/watch?v=u3H7CfpfwHQ",
+   "duration_min": 27,
+   "duration": "27:24",
+   "views": 0,
+   "upload_date": ""
+  },
+  {
    "title": "We Made a BIG Decision...",
    "url": "https://www.youtube.com/watch?v=OUI12JmD-lM",
    "duration_min": 62,
    "duration": "1:02:21",
+   "views": 0,
+   "upload_date": ""
+  },
+  {
+   "title": "Answering Juicy Questions About Our Relationship",
+   "url": "https://www.youtube.com/watch?v=hCgr7jT7JLA",
+   "duration_min": 20,
+   "duration": "20:02",
    "views": 0,
    "upload_date": ""
   }
