@@ -6,7 +6,7 @@ table{width:100%;border-collapse:collapse;margin-top:12px}td,th{padding:8px;bord
 <table><thead><tr><th data-k="title">Title</th><th data-k="duration_min">Min</th><th data-k="views">Views</th></tr></thead><tbody id="b"></tbody></table>
 <script>
 let rows=[],key="views",dir=-1;
-fetch("../videos.json").then(r=>r.json()).then(d=>{rows=d.videos;document.getElementById("s").textContent=`${rows.length} videos (30+ min)`;draw()});
+fetch("../videos.json").then(r=>r.json()).then(d=>{rows=d.videos;document.getElementById("s").textContent=`${rows.length} videos (20+ min)`;draw()});
 function draw(){const q=document.getElementById("q").value.toLowerCase();
 const r=rows.filter(v=>v.title.toLowerCase().includes(q)).sort((a,b)=>(a[key]>b[key]?1:-1)*dir);
 document.getElementById("b").innerHTML=r.map(v=>`<tr><td><a href="${v.url}" target="_blank" rel="noopener">${v.title.replace(/</g,"&lt;")}</a></td><td>${v.duration_min}</td><td>${v.views.toLocaleString()}</td></tr>`).join("")}

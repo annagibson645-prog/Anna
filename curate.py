@@ -3,7 +3,7 @@ import csv, json, sys
 import yt_dlp
 
 CHANNEL = "https://www.youtube.com/@AlexHormozi"
-MIN_SECONDS = 30 * 60
+MIN_SECONDS = 20 * 60
 
 
 def list_tab(tab):
@@ -48,7 +48,7 @@ def main():
             "upload_date": e.get("upload_date") or "",
         })
     rows.sort(key=lambda r: r["views"], reverse=True)
-    stats = {"videos_tab": len(videos), "shorts_tab": len(shorts), "kept_30min_plus": len(rows)}
+    stats = {"videos_tab": len(videos), "shorts_tab": len(shorts), "kept_20min_plus": len(rows)}
     with open("videos.json", "w") as f:
         json.dump({"stats": stats, "videos": rows}, f, indent=1)
     with open("videos.csv", "w", newline="") as f:
