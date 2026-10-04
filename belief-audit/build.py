@@ -132,7 +132,7 @@ pages.append(f'''<section class="page dark"><div class="band" style="background:
 <li><b>Part 3:</b> which of three forces kept it alive.</li>
 <li><b>Part 4:</b> a ladder of five whys.</li>
 <li><b>Part 5:</b> the times the belief was not true.</li>
-<li><b>Part 6:</b> a replacement message and one physical action.</li>
+<li><b>Part 6:</b> three affirmations to replace it, and one physical action.</li>
 <li><b>Part 7:</b> your Belief Card, one action to take right now, and how to add more beliefs.</li>
 </ul>
 <h3>How to use it</h3>
@@ -257,34 +257,38 @@ pages.append(page(7, 'Part 5', 'The Times It Was Not True', f'''
 'Look at the list. Write one sentence: "The belief is not always true. Here is what I see."',
 'Rate how true the belief feels now, from 0 to 10.'])}
 {lines(1.5)}
-{nxt('In Part 6, you will write a message to replace it, and do one physical thing.')}'''))
+{nxt('In Part 6, you will write affirmations to replace it, and do one physical thing.')}'''))
 
 # ---- part 6
+S6 = steps(['Write the opposite of your belief. Check it against Part 5.',
+'Turn it into three affirmations. Start with one you already believe at least 8 out of 10. Make the second a step further, around 6. Make the third the one you are aiming for, even if you only believe it 4 or 5 out of 10.',
+'Make each one true about something real. If you can\'t believe it at least a little, make it smaller.',
+'Write them as sentences you can say out loud.',
+'Pick one physical action that proves it, small enough to do right now, in the next five to ten minutes.',
+'Do it now. Then write down what you did.'])
 pages.append(page(8, 'Part 6', 'Replace It, Then Do One Physical Thing', f'''
-<p>The same forces that built the belief can build a better one. Repetition, identity, and social transmission are not the problem. The line is whether the message tells the truth about something real. A replacement that is too big to believe will not hold, so write one you can believe at least a little.</p>
+<p>The same forces that built the belief can build a better one. Repetition, identity, and social transmission are not the problem. The line is whether the message tells the truth about something real. A replacement that is too big to believe will not hold, so write three affirmations, from the easiest to believe to the one you are aiming for.</p>
 <p>Then do something physical. You have to do something in the real world to change a belief and your identity. For me, it was paying for ghostwriting training. I learned quickly that my writing can make money, and the old belief stopped being the only story I had.</p>
 <div class="eyebrow">How it looks (an illustration, not a real person)</div>
 <div class="story"><p><b>Old belief:</b> "I'm not a math person."</p>
-<p><b>Replacement:</b> "I get some math wrong and some math right, and I can learn the rest."</p>
+<p><b>Affirmation 1 (easy to believe):</b> "I got some math right this week."</p>
+<p><b>Affirmation 2:</b> "I can learn the math I don't know yet."</p>
+<p><b>Affirmation 3 (the one you are aiming for):</b> "I'm someone who can work with numbers."</p>
 <p><b>Physical action:</b> add up one receipt and check the total.</p></div>
 <div class="eyebrow">Do this now</div>
-{steps(['Write the opposite of your belief. Check it against Part 5. Can you believe at least 5 out of 10 of it?',
-'If not, make it smaller and truer until you can.',
-'Write it as one sentence you can say out loud.',
-'Pick one physical action that proves it, small enough to do right now, in the next five to ten minutes.',
-'Do it now. Then write down what you did.'])}
-{lines(1.2)}
+{S6}
+{lines(0.6)}
 {nxt('In Part 7, you will put it all on one card.')}'''))
 
 # ---- part 7
-rows = ['The belief','Where it came from (Part 2)','The force that kept it alive (Part 3)','What I found at the bottom of the whys (Part 4)','Times it was not true (Part 5)','My replacement message (Part 6)','My physical action, done (Part 6)','How true it felt at the start (0 to 10)','How true it feels now (0 to 10)']
+rows = ['The belief','Where it came from (Part 2)','The force that kept it alive (Part 3)','What I found at the bottom of the whys (Part 4)','Times it was not true (Part 5)','My affirmations (Part 6)','My physical action, done (Part 6)','How true it felt at the start (0 to 10)','How true it feels now (0 to 10)']
 card = '<div class="card"><table>' + ''.join(f'<tr><td class="k">{r}</td><td class="v"></td></tr>' for r in rows) + '</table></div>'
 pages.append(page(9, 'Part 7', 'Your Belief Card and Next Steps', f'''
 {card}
 <div class="darkbox">
 <div class="eyebrow" style="color:#a78bfa;margin-top:0">Do this right now</div>
 <p style="margin-bottom:0.04in">That is the whole minimum. It should take five to ten minutes.</p>
-<ol class="steps"><li>Say your replacement message out loud, once.</li><li>Do your physical action.</li><li>Rate the belief again, from 0 to 10. Write the number next to your first one.</li></ol>
+<ol class="steps"><li>Say your first affirmation out loud, once.</li><li>Do your physical action.</li><li>Rate the belief again, from 0 to 10. Write the number next to your first one.</li></ol>
 <h3>Then add beliefs slowly</h3>
 <p style="margin-bottom:0.04in">One belief at a time. Go back to your list from Part 1.</p>
 <ol class="steps"><li>Pick the next smallest belief, the one that feels easiest to change.</li><li>Run it through Parts 2 to 7 again. It goes faster the second time.</li><li>Each small win gives you the momentum to take on a larger belief.</li><li>Save the biggest belief for last.</li></ol>
