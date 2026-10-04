@@ -112,74 +112,8 @@ def lines(h):
 def nxt(t):
     return f'<div class="next"><b>What\'s next</b>&nbsp;&nbsp; {t}</div>'
 
-pages = []
 
-# ---- cover
-pages.append(f'''<section class="page cover">{COVER_ART}
-<div class="title"><div class="kicker">A Free Workbook</div><h1>The Belief<br>Audit</h1>
-<div class="sub">Find the belief that was handed to you. See how it was made durable. Then change it.</div></div>
-<div class="by">~ Anna</div><div class="free">Free</div></section>''')
-
-# ---- start here (dark)
-pages.append(f'''<section class="page dark"><div class="band" style="background:transparent;height:1.5in"><div class="kicker">Welcome</div><h1>Start here</h1>{ORB}</div><div class="rule"></div>
-<div class="body">
-<p>Some beliefs you chose. Some were handed to you, said so many times that they turned into facts about who you are. This workbook helps you find one of the second kind.</p>
-<p>You will work on one belief. By the end you will have a Belief Card: the belief, where it came from, what kept it alive, what the evidence says, and a true message to replace it.</p>
-<h3>What you will have after each part</h3>
-<ul class="dots">
-<li><b>Part 1:</b> a list of your limiting beliefs, and the one you will work on.</li>
-<li><b>Part 2:</b> a map of where it came from.</li>
-<li><b>Part 3:</b> which of three forces kept it alive.</li>
-<li><b>Part 4:</b> a ladder of five whys.</li>
-<li><b>Part 5:</b> the times the belief was not true.</li>
-<li><b>Part 6:</b> three affirmations to replace it, and one physical action.</li>
-<li><b>Part 7:</b> your Belief Card, one action to take right now, and how to add more beliefs.</li>
-</ul>
-<h3>How to use it</h3>
-<p>Go in order. Write your answers on paper or in the Notebook. Plan on about 20 minutes a part, and stop whenever you need to. Come back when you are ready.</p>
-<div class="help"><div class="eyebrow" style="margin-top:0">What this is not</div>
-<p>This is a self-reflection workbook. It is not therapy, medical advice, or a diagnosis. If something heavy comes up, stop and reach out for real support:</p>
-<ul class="dots"><li>Suicidal thoughts or self-harm: 988 Suicide &amp; Crisis Lifeline, call or text 988</li>
-<li>Domestic violence or abuse: National Domestic Violence Hotline, 1-800-799-7233</li></ul></div>
-<h3>Where to start</h3><p>Go to Part 1.</p>
-</div>{foot(2)}</section>''')
-
-# ---- part 1
-S1 = steps(['Write down every sentence you tell yourself about what you can\'t do, aren\'t, or never will. Aim for ten. Start them with "I\'m the one who...", "I\'m not a ___ person", or "I\'m just..."',
-'Circle any you have said for as long as you can remember, or that you can hear in someone else\'s voice.',
-'Pick the smallest one, the belief that feels easiest to change. A small win gives you the momentum for the bigger ones.',
-'Write it as one sentence, in the words you actually hear.',
-'Rate how true it feels, from 0 to 10. You will rate it again at the end.'])
-pages.append(page(3, 'Part 1', 'Name the Belief', f'''
-<p>A belief that was handed to you rarely arrives as an argument. It arrives as a sentence, repeated until it sounds like a fact about you. You can't change a belief you haven't put into words, so we start by naming one.</p>
-<div class="eyebrow">How it looked for me</div>
-<div class="story"><p>Someone in my family said everything twice. Then they added the same three words at the end: before you forget.</p>
-<p class="quote">Take your coat before you forget. Take your coat before you forget.</p>
-<p>I heard it for years. Somewhere in those years I started to forget things: a coat, a name, a plan. I told people I had a bad memory, and I said it like a fact I had always known about myself.</p>
-<p>The belief was not "I forget sometimes." It was "I'm the one who forgets." It cost me my memory, and it cost me the ability to believe I could remember. I never tried to fix it, because I was the one who forgot. I first doubted the story around 30, six years ago, when I started asking how I could see what my beliefs were and change them. That was a big belief. Start smaller than I did.</p></div>
-<div class="eyebrow">Do this now</div>
-{S1}
-{lines(1.3)}
-{nxt('In Part 2, you will trace where this belief came from.')}'''))
-
-# ---- part 2
-pages.append(page(4, 'Part 2', 'Trace the Source', f'''
-<p>A belief has a first time you heard it or learned it. Finding that moment takes away some of its power, because a belief that came from a person or a circumstance is no longer a fact about you.</p>
-<div class="eyebrow">How it looked for me</div>
-<div class="story"><p>Where did I first hear it? From someone in my family, said twice, with the same three words at the end. How many times? For years. What was I feeling? It sounded like care, and maybe it was. I never decided to believe it. Nobody gave me an argument. I just heard it enough times that it became the background music of a huge chunk of my life.</p></div>
-<div class="eyebrow">Do this now</div>
-{steps(['Write your belief at the top of a page.',
-'Where did I first hear this, or first learn it? Name the person, the place, or the moment before you name the claim.',
-'Who else said it, or something like it?',
-'What happened that made it feel true? An event, a circumstance, or a pattern that kept repeating.',
-'How many times did I hear it or see it happen? Guess: once, a few times, or for years.',
-'What was I feeling when it happened? Fear, belonging, or just the sound of it for the hundredth time?',
-'Did anyone ever give me an argument for it? Write yes or no.'])}
-{lines(2.1)}
-{nxt('In Part 3, you will see which forces kept it alive.')}'''))
-
-# ---- part 3 with diagram
-TRI = """<svg width="82%" viewBox="0 0 640 250" style="margin:0 9% 0.04in">
+TRI = """<svg width="62%" viewBox="0 0 640 250" style="margin:0 19% 0.02in">
 <defs><radialGradient id="c3" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#7c3aed" stop-opacity=".95"/><stop offset="1" stop-color="#4c1d95" stop-opacity=".95"/></radialGradient></defs>
 <g stroke="#8b5cf6" stroke-opacity=".6" stroke-width="2">
 <line x1="320" y1="125" x2="115" y2="70"/><line x1="320" y1="125" x2="525" y2="70"/><line x1="320" y1="125" x2="320" y2="215"/></g>
@@ -192,25 +126,6 @@ TRI = """<svg width="82%" viewBox="0 0 640 250" style="margin:0 9% 0.04in">
 <circle cx="320" cy="205" r="40" fill="#1b0b36"/><text x="320" y="196" fill="#ddd0ff" font-size="11.5" font-weight="bold">Social</text><text x="320" y="211" fill="#ddd0ff" font-size="11.5" font-weight="bold">transmission</text><text x="320" y="228" fill="#a78bfa" font-size="9.5">said out loud</text></g>
 </svg>"""
 
-S3 = steps(['Copy your belief at the top of a page.',
-'Repetition: how often did you hear it, and from whom? Write a number or a guess.',
-'Identity: does it sound like a description of who you are, such as "I\'m the one who..."? Write yes or no, and the exact words.',
-'Social transmission: do you say it to other people? Write down the last time you did.',
-'Circle the force that was strongest.'])
-pages.append(page(5, 'Part 3', 'See the Machine', f'''
-<p>A message has to be durable before it can be believed, and durability can be manufactured. Three forces do most of the work: repetition, identity, and social transmission. Most beliefs that were handed to you used at least one.</p>
-{TRI}
-<ul class="dots"><li><b>Repetition:</b> you heard it again and again. Familiarity starts to feel like truth.</li>
-<li><b>Identity:</b> it became part of who you are. A message that says who we are is a membership card, not an argument.</li>
-<li><b>Social transmission:</b> you repeated it to other people. What you say out loud hardens.</li></ul>
-<div class="eyebrow">How it looked for me</div>
-<div class="story"><p>Repetition: I heard it for years. Identity: it became an essential part of my identity. I was the one who forgets. Social transmission: I told people I had a bad memory, and I said it like a fact I had always known about myself. All three were at work.</p></div>
-<div class="eyebrow">Do this now</div>
-{S3}
-{lines(0.25)}
-{nxt('In Part 4, you will ask why, five times.')}'''))
-
-# ---- part 4 with ladder
 LAD = """<svg width="80%" viewBox="0 0 640 215" style="margin:0 10% 0.02in">
 <g font-family="Liberation Sans">
 <g><rect x="30" y="8" width="580" height="32" rx="8" fill="#1b0b36"/><text x="48" y="29" fill="#ddd0ff" font-size="12.5">1. Why do I believe this?</text></g>
@@ -220,7 +135,78 @@ LAD = """<svg width="80%" viewBox="0 0 640 215" style="margin:0 10% 0.02in">
 <g><rect x="130" y="168" width="480" height="32" rx="8" fill="#7c3aed"/><text x="148" y="189" fill="#fff" font-size="12.5" font-weight="bold">5. Why does that matter now? (stop at a feeling or a person)</text></g>
 </g></svg>"""
 
-pages.append(page(6, 'Part 4', 'Ask Why Five Times', f'''
+pages = []
+
+# ---- cover
+pages.append(f"""<section class="page cover">{COVER_ART}
+<div class="title"><div class="kicker">A Free Workbook</div><h1>The Belief<br>Audit</h1>
+<div class="sub">Find where a limiting belief came from. See what kept it alive. Then take the first step to change it.</div></div>
+<div class="by">~ Anna</div><div class="free">Free</div></section>""")
+
+# ---- start here (dark)
+pages.append(f"""<section class="page dark"><div class="band" style="background:transparent;height:1.5in"><div class="kicker">Welcome</div><h1>Start here</h1>{ORB}</div><div class="rule"></div>
+<div class="body">
+<p>If you've ever said "I'm just not a ___ person" or "I'm the one who...", this workbook is for you.</p>
+<p>Some beliefs you chose. Some came from people, or from what happened to you, and were repeated until they sounded like facts about who you are. This workbook helps you find one of the second kind and take the first step to change it.</p>
+<p>This isn't for people who want to repeat a nice phrase and hope. It's for people willing to ask where a belief came from and test it against their own life.</p>
+<p>You will work on one belief. By the end you will have a Belief Card: the belief, where it came from, what kept it alive, the times it was not true, and affirmations to replace it.</p>
+<h3>What you will have after each part</h3>
+<ul class="dots">
+<li><b>Part 1:</b> the smallest belief to work on.</li>
+<li><b>Part 2:</b> a map of where it came from and what kept it alive.</li>
+<li><b>Part 3:</b> a ladder of five whys.</li>
+<li><b>Part 4:</b> the times the belief was not true.</li>
+<li><b>Part 5:</b> three affirmations to replace it, and one physical action.</li>
+<li><b>Part 6:</b> your Belief Card, and how to add your next belief.</li>
+</ul>
+<h3>How to use it</h3>
+<p>Go in order. Write your answers on paper or in the Notebook. Plan on about 20 minutes a part, and stop whenever you need to.</p>
+<div class="help"><div class="eyebrow" style="margin-top:0">What this is not</div>
+<p>This is a self-reflection workbook. It is not therapy, medical advice, or a diagnosis. If something heavy comes up, stop and reach out for real support:</p>
+<ul class="dots"><li>Suicidal thoughts or self-harm: 988 Suicide &amp; Crisis Lifeline, call or text 988</li>
+<li>Domestic violence or abuse: National Domestic Violence Hotline, 1-800-799-7233</li></ul></div>
+<h3>Where to start</h3><p>Go to Part 1. Start with the smallest belief you can find.</p>
+</div>{foot(2)}</section>""")
+
+# ---- part 1
+S1 = steps(['Write down the sentences you tell yourself about what you can\'t do, aren\'t, or never will. Start them with "I\'m the one who...", "I\'m not a ___ person", or "I\'m just..." Keep this on one page. You will add to it in each part.',
+'Pick the smallest one, the belief that feels easiest to change. A small win gives you the momentum for the bigger ones.',
+'Write it as one sentence, in the words you actually hear. Rate how true it feels, from 0 to 10. You will rate it again at the end.'])
+pages.append(page(3, 'Part 1', 'Name the Belief', f"""
+<p>A belief that was handed to you rarely arrives as an argument. It arrives as a sentence, repeated until it sounds like a fact about you. You can't change a belief you haven't put into words, so we start by naming one.</p>
+<div class="eyebrow">How it looked for me</div>
+<div class="story"><p>Someone in my family said everything twice. Then they added the same three words at the end: before you forget.</p>
+<p class="quote">Take your coat before you forget. Take your coat before you forget.</p>
+<p>I heard it for years. Somewhere in those years I started to forget things: a coat, a name, a plan. I told people I had a bad memory, and I said it like a fact I had always known about myself.</p>
+<p>The belief was not "I forget sometimes." It was "I'm the one who forgets." It cost me my memory, and it cost me the ability to believe I could remember. I never tried to fix it, because I was the one who forgot. I first doubted the story around 30, six years ago, when I started asking how I could see what my beliefs were and change them. That was a big belief. Start smaller than I did.</p></div>
+<div class="eyebrow">Do this now</div>
+{S1}
+{lines(1.6)}
+{nxt('In Part 2, you will trace where this belief came from.')}"""))
+
+# ---- part 2
+TRI2 = TRI
+S2 = steps(['Where did I first hear this, or first learn it? Name the person, the place, or the moment before you name the claim.',
+'What happened that made it feel true? An event, a circumstance, or a pattern that kept repeating.',
+'Did anyone ever give me an argument for it? Write yes or no. Then circle the force that kept it alive: heard again and again, "I\'m the one who...", or said to other people.'])
+pages.append(page(4, 'Part 2', 'Trace the Source', f"""
+<p>A belief has a first time you heard it or learned it. Finding that moment takes away some of its power, because a belief that came from a person or a circumstance is no longer a fact about you.</p>
+<p>Three forces keep a belief alive: repetition, identity, and social transmission. Most beliefs that were handed to you used at least one.</p>
+{TRI2}
+<ul class="dots"><li><b>Repetition:</b> you heard it again and again. Familiarity starts to feel like truth.</li>
+<li><b>Identity:</b> it became part of who you are. A message that says who we are is a membership card, not an argument.</li>
+<li><b>Social transmission:</b> you repeated it to other people. What you say out loud hardens.</li></ul>
+<div class="eyebrow">How it looked for me</div>
+<div class="story"><p>Where did I first hear it? From someone in my family, said twice. Nobody gave me an argument. All three forces were at work. Repetition: I heard it for years. Identity: it became an essential part of my identity. Social transmission: I told people I had a bad memory, like it was a fact I had always known about myself.</p></div>
+<div class="eyebrow">Do this now</div>
+{S2}
+{lines(0.25)}
+{nxt('In Part 3, you will ask why, five times.')}"""))
+
+# ---- part 3
+S3 = steps(['Ask: why do I believe this? Write the answer. Then ask why again about your answer, until you have asked five times.',
+'Stop when you reach a feeling or a person, not a fact. Write one sentence on what you notice.'])
+pages.append(page(5, 'Part 3', 'Ask Why Five Times', f"""
 <p>Awareness is the first move. When you can see a belief, you are no longer inside it, and that gap is where change starts. One simple way to widen it is to ask why, again and again, until you reach what is underneath.</p>
 {LAD}
 <div class="eyebrow">How it looks (an illustration, not a real person)</div>
@@ -232,16 +218,14 @@ pages.append(page(6, 'Part 4', 'Ask Why Five Times', f'''
 <li>Why did I keep saying it years later? Because my friends nodded, and it made me feel like I belonged.</li>
 <li>Why does that matter now? Because I have been protecting a story about who I am, not looking at what I can do.</li></ol></div>
 <div class="eyebrow">Do this now</div>
-{steps(['Write your belief at the top of a page.',
-'Ask: why do I believe this? Write the answer.',
-'Ask why again about your answer. Repeat until you have asked five times.',
-'Stop when you reach a feeling or a person, not a fact.',
-'Write one sentence on what you notice.'])}
-{lines(0.3)}
-{nxt('In Part 5, you will look for the times the belief was not true.')}'''))
+{S3}
+{lines(0.9)}
+{nxt('In Part 4, you will look for the times the belief was not true.')}"""))
 
-# ---- part 5
-pages.append(page(7, 'Part 5', 'The Times It Was Not True', f'''
+# ---- part 4
+S4 = steps(['List every time the belief was not true, even once. Include times you did the opposite, and times someone saw you differently. Keep it to facts: what happened, not what it meant.',
+'Look at the list. Write one sentence: "The belief is not always true. Here is what I see."'])
+pages.append(page(6, 'Part 4', 'The Times It Was Not True', f"""
 <p>A belief that was handed to you was never tested. Nobody checked it against your life. So you check it now, and not by arguing with it. You look for the times it was wrong.</p>
 <div class="eyebrow">How it looks (an illustration, not a real person)</div>
 <div class="story"><p><b>Belief: "I'm not a math person."</b></p>
@@ -250,24 +234,15 @@ pages.append(page(7, 'Part 5', 'The Times It Was Not True', f'''
 <li>A coworker once asked me to check her budget numbers.</li></ul>
 <p>None of these proves she is a math person. They prove the belief is not always true, and a belief with exceptions is no longer a fact.</p></div>
 <div class="eyebrow">Do this now</div>
-{steps(['Write your belief at the top of a page.',
-'List every time the belief was not true, even once. Small counts.',
-'List times you did the opposite of what the belief says.',
-'List times someone else saw you differently, and what they said.',
-'Write what happened, not what it meant. Keep it to facts.',
-'Look at the list. Write one sentence: "The belief is not always true. Here is what I see."',
-'Rate how true the belief feels now, from 0 to 10.'])}
-{lines(1.5)}
-{nxt('In Part 6, you will write affirmations to replace it, and do one physical thing.')}'''))
+{S4}
+{lines(2.4)}
+{nxt('In Part 5, you will write affirmations to replace it, and do one physical thing.')}"""))
 
-# ---- part 6
-S6 = steps(['Write the opposite of your belief. Check it against Part 5.',
-'Turn it into three affirmations. Start with one you already believe at least 8 out of 10. Make the second a step further, around 6. Make the third the one you are aiming for, even if you only believe it 4 or 5 out of 10.',
-'Make each one true about something real. If you can\'t believe it at least a little, make it smaller.',
-'Write them as sentences you can say out loud.',
-'Pick one physical action that proves it, small enough to do right now, in the next five to ten minutes.',
-'Do it now. Then write down what you did.'])
-pages.append(page(8, 'Part 6', 'Replace It, Then Do One Physical Thing', f'''
+# ---- part 5
+S5 = steps(['Write the opposite of your belief, then turn it into three affirmations. Start with one you already believe at least 8 out of 10. Make the second a step further, around 6. Make the third the one you are aiming for, even if you only believe it 4 or 5 out of 10. Each one must be true about something real. If you can\'t believe it at all, make it smaller.',
+'Say your first affirmation out loud, once. Then pick one physical action that proves it, small enough to do right now, in the next five to ten minutes. Do it, and write down what you did.',
+'Rate the belief again, from 0 to 10.'])
+pages.append(page(7, 'Part 5', 'Replace It, Then Do One Physical Thing', f"""
 <p>The same forces that built the belief can build a better one. Repetition, identity, and social transmission are not the problem. The line is whether the message tells the truth about something real. A replacement that is too big to believe will not hold, so write three affirmations, from the easiest to believe to the one you are aiming for.</p>
 <p>Then do something physical. You have to do something in the real world to change a belief and your identity. For me, it was paying for ghostwriting training. I learned quickly that my writing can make money, and the old belief stopped being the only story I had.</p>
 <div class="eyebrow">How it looks (an illustration, not a real person)</div>
@@ -277,24 +252,21 @@ pages.append(page(8, 'Part 6', 'Replace It, Then Do One Physical Thing', f'''
 <p><b>Affirmation 3 (the one you are aiming for):</b> "I'm someone who can work with numbers."</p>
 <p><b>Physical action:</b> add up one receipt and check the total.</p></div>
 <div class="eyebrow">Do this now</div>
-{S6}
-{lines(0.6)}
-{nxt('In Part 7, you will put it all on one card.')}'''))
+{S5}
+{lines(1.6)}
+{nxt('In Part 6, you will put it all on one card.')}"""))
 
-# ---- part 7
-rows = ['The belief','Where it came from (Part 2)','The force that kept it alive (Part 3)','What I found at the bottom of the whys (Part 4)','Times it was not true (Part 5)','My affirmations (Part 6)','My physical action, done (Part 6)','How true it felt at the start (0 to 10)','How true it feels now (0 to 10)']
+# ---- part 6
+rows = ['The belief','Where it came from (Part 2)','The force that kept it alive (Part 2)','What I found at the bottom of the whys (Part 3)','Times it was not true (Part 4)','My affirmations (Part 5)','My physical action, done (Part 5)','How true it felt at the start (0 to 10)','How true it feels now (0 to 10)']
 card = '<div class="card"><table>' + ''.join(f'<tr><td class="k">{r}</td><td class="v"></td></tr>' for r in rows) + '</table></div>'
-pages.append(page(9, 'Part 7', 'Your Belief Card and Next Steps', f'''
+pages.append(page(8, 'Part 6', 'Your Belief Card and Next Steps', f"""
 {card}
 <div class="darkbox">
-<div class="eyebrow" style="color:#a78bfa;margin-top:0">Do this right now</div>
-<p style="margin-bottom:0.04in">That is the whole minimum. It should take five to ten minutes.</p>
-<ol class="steps"><li>Say your first affirmation out loud, once.</li><li>Do your physical action.</li><li>Rate the belief again, from 0 to 10. Write the number next to your first one.</li></ol>
-<h3>Then add beliefs slowly</h3>
+<div class="eyebrow" style="color:#a78bfa;margin-top:0">Then add beliefs slowly</div>
 <p style="margin-bottom:0.04in">One belief at a time. Go back to your list from Part 1.</p>
-<ol class="steps"><li>Pick the next smallest belief, the one that feels easiest to change.</li><li>Run it through Parts 2 to 7 again. It goes faster the second time.</li><li>Each small win gives you the momentum to take on a larger belief.</li><li>Save the biggest belief for last.</li></ol>
-<div class="next"><b>What's next</b>&nbsp;&nbsp; This is one belief. You probably have more. [Link to the 21-Day Belief Reset goes here, once it is built.]</div>
-</div>'''))
+<ol class="steps"><li>Pick the next smallest belief, the one that feels easiest to change.</li><li>Run it through Parts 2 to 5 again. It goes faster the second time.</li><li>Each small win gives you the momentum to take on a larger belief.</li><li>Save the biggest belief for last.</li></ol>
+<div class="next"><b>What's next</b>&nbsp;&nbsp; This is one belief. You probably have more.</div>
+</div>"""))
 
 html = f'<!doctype html><html><head><meta charset="utf-8"><title>The Belief Audit</title><style>{CSS}</style></head><body>' + ''.join(pages) + '</body></html>'
 (OUT / 'belief-audit.html').write_text(html, encoding='utf-8')
