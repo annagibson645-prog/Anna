@@ -164,15 +164,16 @@ pages.append(page(3, 'Part 1', 'Name the Belief', f'''
 
 # ---- part 2
 pages.append(page(4, 'Part 2', 'Trace the Source', f'''
-<p>A belief has a first time you heard it. Finding that moment takes away some of its power, because a belief that came from a person is no longer a fact about you.</p>
+<p>A belief has a first time you heard it or learned it. Finding that moment takes away some of its power, because a belief that came from a person or a circumstance is no longer a fact about you.</p>
 <div class="eyebrow">How it looked for me</div>
 <div class="story"><p>Where did I first hear it? From someone in my family, said twice, with the same three words at the end. How many times? For years. What was I feeling? It sounded like care, and maybe it was. I never decided to believe it. Nobody gave me an argument. I just heard it enough times that it became the background music of a huge chunk of my life.</p></div>
 <div class="eyebrow">Do this now</div>
 {steps(['Write your belief at the top of a page.',
-'Where did I first hear this? Name the person or the place before you name the claim.',
+'Where did I first hear this, or first learn it? Name the person, the place, or the moment before you name the claim.',
 'Who else said it, or something like it?',
-'How many times did I hear it? Guess: once, a few times, or for years.',
-'What was I feeling when I heard it? Fear, belonging, or just the sound of it for the hundredth time?',
+'What happened that made it feel true? An event, a circumstance, or a pattern that kept repeating.',
+'How many times did I hear it or see it happen? Guess: once, a few times, or for years.',
+'What was I feeling when it happened? Fear, belonging, or just the sound of it for the hundredth time?',
 'Did anyone ever give me an argument for it? Write yes or no.'])}
 {lines(2.1)}
 {nxt('In Part 3, you will see which forces kept it alive.')}'''))
